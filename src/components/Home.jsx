@@ -11,7 +11,7 @@ const Home = () => {
 
     return (
         <section name='home' className="w-full grid md:grid-cols-[45%,1fr] ">
-            <div className="w-full md:pt-9 md:pb-32">
+            <div className="w-full md:pt-9 md:pb-32 mt-[88px] mb:mt-0">
                 <img className='w-full md:w-[850px] md:[transform:_translate(65px,0px)]' src="/images/foto.png" alt="" />
             </div>
 
