@@ -1,7 +1,14 @@
 import { skillset } from "../utils/data";
-import {SkillSetIcon,} from "./icons/Svgs";
+import { SkillSetIcon } from "./icons/Svgs";
+
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import { Autoplay, Pagination, Navigation } from "swiper/modules";
+// import "swiper/css";
+// import "swiper/css/navigation";
+// import "swiper/css/pagination";
 
 const Skills = () => {
+
   return (
     <section>
       <div className="py-10 px-5 grid gap-4 lg:px-[72px] md:px-[50px] md:grid-cols-2 items-center md:mt-20 ">
@@ -32,53 +39,6 @@ const Skills = () => {
           ))}
         </ul>
       </div>
-
-      {/* <div className="grid grid-cols-[repeat(auto-fit,_350px)] justify-center whitespace-nowrap">
-        <div className="w-full border border-[#181823] flex justify-center items-center h-[140px]">
-            <FreshIcon />
-        </div>
-        
-        <div className="w-full border border-[#181823] flex justify-center items-center h-[140px]">
-            <PlaceForMomIcon />
-        </div>
-        
-        <div className="w-full border border-[#181823] flex justify-center items-center h-[140px]">
-            <MIcon />
-        </div>
-
-        <div className="w-full border border-[#181823] flex justify-center items-center h-[140px]">
-            <EpiqIcon />
-        </div>
-
-        <div className="w-full border border-[#181823] flex justify-center items-center h-[140px]">
-            <Logo2Icon />
-        </div>
-        
-      </div> */}
-      {/* <div className="logos">
-        <div className="logos-slide">
-            <img className="" src="/logos/html.svg" alt="" />
-            <img className="" src="/logos/css.svg" alt="" />
-            <img className="" src="/logos/github.svg" alt="" />
-            <img className="" src="/logos/javascript.svg" alt="" />
-            <img className="" src="/logos/mongodb.svg" alt="" />
-            <img className="" src="/logos/nextjs.svg" alt="" />
-            <img className="" src="/logos/node-js.svg" alt="" />
-            <img className="" src="/logos/react.svg" alt="" />
-            <img className="" src="/logos/tailwind.svg" alt="" />
-        </div>
-        <div className="logos-slide">
-            <img className="" src="/logos/html.svg" alt="" />
-            <img className="" src="/logos/css.svg" alt="" />
-            <img className="" src="/logos/github.svg" alt="" />
-            <img className="" src="/logos/javascript.svg" alt="" />
-            <img className="" src="/logos/mongodb.svg" alt="" />
-            <img className="" src="/logos/nextjs.svg" alt="" />
-            <img className="" src="/logos/node-js.svg" alt="" />
-            <img className="" src="/logos/react.svg" alt="" />
-            <img className="" src="/logos/tailwind.svg" alt="" />
-        </div>
-      </div> */}
 
       <div className="slider">
         <div className="slide-track">
@@ -151,12 +111,84 @@ const Skills = () => {
           <div className="slide">
             <img className="" src="/logos/react.svg" alt="" />
           </div>
-          
+
           <div className="slide">
             <img className="" src="/logos/tailwind.svg" alt="" />
           </div>
         </div>
       </div>
+
+    
+      {/* <Swiper
+        spaceBetween={30}
+        slidesPerView={4}
+        centeredSlides={true}
+        autoplay={{
+          delay: 500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        loop={true}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <div className="slide">
+            <img className="" src="/logos/html.svg" alt="" />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="slide h-[140px]">
+            <img className="" src="/logos/css.svg" alt="" />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="slide">
+            <img className="" src="/logos/github.svg" alt="" />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="slide">
+            <img className="" src="/logos/javascript.svg" alt="" />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="slide">
+            <img className="" src="/logos/mongodb.svg" alt="" />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="slide">
+            <img className="" src="/logos/nextjs.svg" alt="" />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="slide">
+            <img className="" src="/logos/node-js.svg" alt="" />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="slide">
+            <img className="" src="/logos/react.svg" alt="" />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="slide">
+            <img className="" src="/logos/tailwind.svg" alt="" />
+          </div>
+        </SwiperSlide>
+      </Swiper> */}
     </section>
   );
 };

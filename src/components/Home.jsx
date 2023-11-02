@@ -10,14 +10,14 @@ const Home = () => {
     // const [isShowMenu, setIsShowMenu ] = useState(false)
 
     return (
-        <section name='home' className="w-full grid md:grid-cols-[37.5%,1fr] ">
+        <section name='home' className="w-full grid md:grid-cols-[45%,1fr] ">
             <div className="w-full md:pt-9 md:pb-32">
-                <img className='w-full object-cover object-center lg:h-[650px] lg:w-[750px] ' src="/images/foto.png" alt="" />
+                <img className='w-full md:w-[850px] md:[transform:_translate(65px,0px)]' src="/images/foto.png" alt="" />
             </div>
 
-            <div className="text-white bg-level1 py-12 px-5 md:pt-9 md:pb-32 flex justify-center flex-col gap-4 md:gap-8 items-center">
-                <h2 className="text-3xl font-bold md:text-5xl md:[line-height:_normal]">I’m Yurik Rivera a full stack developer <span className="text-slate-500">based in Nicaragua.</span></h2>
-                <p className="text-lg">I’m probably the most passionate developer you will ever get to work with. If you have a great project that needs some amazing skills, I’m your guy.</p>
+            <div className="text-white bg-level1 py-12 px-5 md:pt-9 md:pb-28 flex justify-center flex-col gap-4 md:gap-8 items-center ">
+                <h2 className="text-3xl font-bold md:text-5xl md:[line-height:_normal] z-10">I’m Yurik Rivera a full stack developer <span className="text-slate-500">based in Nicaragua.</span></h2>
+                <p className="text-lg z-10">I’m probably the most passionate developer you will ever get to work with. If you have a great project that needs some amazing skills, I’m your guy.</p>
             </div>
 
             {/* <div className="bg-black h-[72px] w-full px-5 flex items-center justify-between text-light_grey md:pl-[50px] md:pr-0 lg:pl-[72px]">
