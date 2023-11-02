@@ -9,6 +9,7 @@ export default {
       colors: {
         light_grey: '#8491AD',
         purple: '#5221E6',
+        dark_purple: '#2D1084',
         level1: '#181823',
         peach: '#FFF3E4',
         dark_grey: '#5B6876',

@@ -1,3 +1,4 @@
+
 const works = [
     {
         id: '01',
@@ -56,10 +57,14 @@ const links = [
     },
     {
         id: 3,
-        link: 'work'
+        link: 'about'
     },
     {
         id: 4,
+        link: 'work'
+    },
+    {
+        id: 5,
         link: 'contact'
     },
 ]
@@ -90,4 +95,6 @@ const projects = [
         description: 'I worked with the guys at CBRE to redesign their entire website and mobile app fro both Android and iOS. This project lasted for 4 months and was a very challenging one.'
     },
 ]
+
+
 export {links, skillset, works, projects}
