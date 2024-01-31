@@ -7,20 +7,31 @@
 // import NavBar from "./NavBar"
 
 const Home = () => {
-    // const [isShowMenu, setIsShowMenu ] = useState(false)
+  // const [isShowMenu, setIsShowMenu ] = useState(false)
 
-    return (
-        <section name='home' className="w-full grid md:grid-cols-[45%,1fr] ">
-            <div className="w-full md:pt-9 md:pb-32 mt-[88px] mb:mt-0">
-                <img className='w-full md:w-[850px] md:[transform:_translate(65px,0px)]' src="/images/foto.png" alt="" />
-            </div>
+  return (
+    <section name="home" className="w-full grid md:grid-cols-[45%,1fr] ">
+      <div className="w-full md:pt-9 md:pb-32 mt-[88px] mb:mt-0">
+        <img
+          className="w-full md:w-[850px] md:[transform:_translate(65px,0px)]"
+          src="/images/foto4.jpeg"
+          alt=""
+        />
+      </div>
 
-            <div className="text-white bg-level1 py-12 px-5 md:pt-9 md:pb-28 flex justify-center flex-col gap-4 md:gap-8 items-center ">
-                <h2 className="text-3xl font-bold md:text-5xl md:[line-height:_normal] md:z-10">I’m Yurik Rivera a full stack developer <span className="text-slate-500">based in Nicaragua.</span></h2>
-                <p className="text-lg md:z-10">I’m probably the most passionate developer you will ever get to work with. If you have a great project that needs some amazing skills, I’m your guy.</p>
-            </div>
+      <div className="text-white bg-level1 py-12 px-5 md:pt-9 md:pb-28 flex justify-center flex-col gap-4 md:gap-8 items-center ">
+        <h2 className="text-3xl font-bold md:text-5xl md:[line-height:_normal] md:z-10">
+          I’m Yurik Rivera a full stack developer{" "}
+          <span className="text-slate-500">based in Hayward, CA.</span>
+        </h2>
+        <p className="text-lg md:z-10">
+          I’m probably the most passionate developer you will ever get to work
+          with. If you have a great project that needs some amazing skills, I’m
+          your guy.
+        </p>
+      </div>
 
-            {/* <div className="bg-black h-[72px] w-full px-5 flex items-center justify-between text-light_grey md:pl-[50px] md:pr-0 lg:pl-[72px]">
+      {/* <div className="bg-black h-[72px] w-full px-5 flex items-center justify-between text-light_grey md:pl-[50px] md:pr-0 lg:pl-[72px]">
                 <span className="font-great_vibes text-white text-3xl">Yurik R.</span>
                 <ul className='hidden h-full justify-center items-center bg-level1 pr-[50px] md:grid md:grid-cols-[repeat(4,auto)] lg:pr-[72px]'>
                     {
@@ -34,7 +45,7 @@ const Home = () => {
                 </div>
             </div> */}
 
-            {/* <section className="top" id="about">
+      {/* <section className="top" id="about">
                 <img 
                     className="top__img" 
                     src="/images/foto.png" 
@@ -59,7 +70,7 @@ const Home = () => {
                 </div>
             </section> */}
 
-        {/* <header className="w-full md:grid md:grid-cols-[37.5%,1fr] ">
+      {/* <header className="w-full md:grid md:grid-cols-[37.5%,1fr] ">
                 <div className="bg-black w-full grid ">
                     <div className="h-[88px] w-full px-5 flex items-center justify-between md:pl-[50px] lg:pl-[72px] fixed bg-black md:static">
                         <span className="font-great_vibes text-white text-3xl">Yurik.R</span>
@@ -88,10 +99,10 @@ const Home = () => {
                         )
                     }
                 </div> */}
-                
-                {/* sm:relative */}
-                {/* sm:absolute sm:top-1/2 sm:-translate-y-1/2 sm:-left-[15%] sm:gap-8 */}
-                {/* <div className="text-white bg-level1 ">
+
+      {/* sm:relative */}
+      {/* sm:absolute sm:top-1/2 sm:-translate-y-1/2 sm:-left-[15%] sm:gap-8 */}
+      {/* <div className="text-white bg-level1 ">
                     <ul className='hidden h-[88px] justify-end items-center bg-level1 pr-[50px] md:grid md:grid-cols-[repeat(4,auto)] lg:pr-[72px]'>
                         {
                             links.map(link => (
@@ -106,8 +117,7 @@ const Home = () => {
                 </div> 
             </header> */}
 
-
-            {/* 
+      {/* 
 
             
 
@@ -127,8 +137,8 @@ const Home = () => {
                 
             </footer>
              */}
-        </section>
-    )
-}
+    </section>
+  );
+};
 
-export default Home
+export default Home;
